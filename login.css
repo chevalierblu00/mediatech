@@ -112,7 +112,20 @@ body {
     padding-top: 2%;
   }
   
+.alignements{
+    padding-top: 5%;
+  }
+
+  .organisation{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .padding{
+    display: flex;
+    flex-wrap: wrap;
+  }  
   
-  
+
   
   
