@@ -1,0 +1,76 @@
+<mjml>
+  <mj-body>
+    <mj-raw>
+      <!-- Header servant d'exemple de mail  -->
+    </mj-raw>
+    <mj-section background-color="#060F0F" padding="10px">
+      <mj-image padding="0 0 0 10px" width="130px" src="https://i.postimg.cc/KYJS1Rf9/oie-2314450-Ihir-Bmdu-1.png"/>  
+      
+    </mj-section>
+    <mj-raw>
+      <!-- Image Header -->
+    </mj-raw>
+    
+    <mj-section background-url="https://i.postimg.cc/MK6FF33f/books.jpg" background-size="cover" background-repeat="no-repeat" padding="60px">
+    
+    </mj-section>
+    
+    <mj-section>
+     <mj-column width="600px">
+        <mj-text align="center" color="000" font-size="30px" font-family="roboto">
+          Demande de parainage comfirmée !
+        </mj-text>
+        
+      </mj-column>
+      </mj-section>
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-image width="200px" src="img/dealdecode.png" ></mj-image>
+      </mj-column>
+      <mj-column>
+        <mj-text  font-size="20px" font-family="roboto" color="#000">
+        	Ateos, votre demande de parrainage à été acceptée !
+        </mj-text>
+        <mj-text color="#525252">
+        	Altobob à accépté.e votre parrainage ! 
+          <br>par consécconséquent   vous venez de remporter une récompense !</br>
+          <br>N'oubliez pas de la récuperer avant le 23/02/2024 !</br>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+     <mj-section background-color="#fafafa">
+      <mj-column width="400px">
+        <mj-text font-size="30px" font-family="roboto" color="#000">Insérer Texte</mj-text>
+        <mj-text color="#525252">Insérer texte ici</mj-text>
+        <mj-button background-color="#49BEB7" href="#">Accedez à votre compte</mj-button>
+      </mj-column>
+    </mj-section>
+    
+		<mj-section padding="0">
+      <mj-column width="65%" vertical-align="middle"  padding="0">
+        <mj-image align="left" width="150px" src="https://i.postimg.cc/j5V84tFP/LOGO-BLACK.png"  padding="0 0 0 20px"></mj-image>
+      </mj-column>
+      <mj-column width="35%" vertical-align="middle" padding="0">
+        <mj-table>
+          <tr style="list-style: none;line-height:1">
+            <td> <a href="https://twitter.com/RecastAI">
+                <img width="25" src="https://cdn.recast.ai/newsletter/twitter.png" />
+              </a> </td>
+            <td> <a href="https://www.facebook.com/recastAI">
+                <img width="25" src="https://cdn.recast.ai/newsletter/facebook.png" />
+              </a> </td>
+            <td> <a href="https://medium.com/@RecastAI">
+                <img width="25" src="https://cdn.recast.ai/newsletter/medium.png" />
+              </a> </td>
+            <td> <a href="https://www.youtube.com/channel/UCA0UZlR8crpgwFiVaSTbVWw">
+                <img width="25" src="https://cdn.recast.ai/newsletter/youtube.png" />
+              </a> </td>
+            <td> <a href="https://plus.google.com/u/0/+RecastAi">
+                <img width="25" src="https://cdn.recast.ai/newsletter/google%2B.png" />
+              </a> </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
