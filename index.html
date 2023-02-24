@@ -19,7 +19,17 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXJVZP6"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-    <img src="/img/logo.png" alt="Logo" height="200" width="200" style="margin-left: 650px;">
+    <header>
+      <div class="navbar">
+        <img src="f/img/1.jpg" alt="Logo" height="70" width="70" style="margin-left: 100px;">
+        <a href="#">Home</a>
+        <a href="#">Catégorie</a>
+        <a href="#">Abonnement</a>
+        <div style="flex: 1;"></div>
+        <a href="profil.html">Mon compte</a>
+      </div>
+    </header>
+
     <main>
       <form action="login.html" method="get">
         <label for="text">Nom :</label>
@@ -31,34 +41,90 @@
       <label for="email">E-mail :</label>
       <input type="email" id="email" name="email" placeholder="Entrez votre adresse e-mail" required>
   
-      <fieldset>
-        <legend>Type :</legend>
+      <div class="organisation">
+        <fieldset>
+          <legend>Type :</legend>
+    
+          <div class="genre">
+            <input type="checkbox" id="scales" name="passion">
+            <label for="scales" class="alignement">Poésie </label>
+          </div>
+    
+          <div class="genre">
+            <input type="checkbox" id="horns" name="passion">
+            <label for="horns" class="alignement">Roman</label>
+          </div>
+    
+          <div class="genre">
+            <input type="checkbox" id="horns" name="passion">
+            <label for="horns" class="alignement">Nouvelle</label>
+          </div>
+    
+          <div class="genre">
+            <input type="checkbox" id="horns" name="passion">
+            <label for="horns" class="alignement">Conte</label>
+          </div>
+    
+          <div class="genre">
+            <input type="checkbox" id="horns" name="passion">
+            <label for="horns" class="alignement">Théâtre</label>
+          </div>
+        </fieldset>
   
-        <div class="genre">
-          <input type="checkbox" id="scales" name="passion">
-          <label for="scales" class="alignement">Poésie </label>
-        </div>
-  
-        <div class="genre">
-          <input type="checkbox" id="horns" name="passion">
-          <label for="horns" class="alignement">Roman</label>
-        </div>
-  
-        <div class="genre">
-          <input type="checkbox" id="horns" name="passion">
-          <label for="horns" class="alignement">Nouvelle</label>
-        </div>
-  
-        <div class="genre">
-          <input type="checkbox" id="horns" name="passion">
-          <label for="horns" class="alignement">Conte</label>
-        </div>
-  
-        <div class="genre">
-          <input type="checkbox" id="horns" name="passion">
-          <label for="horns" class="alignement">Théâtre</label>
-        </div>
-      </fieldset>
+        <fieldset class="padding">
+          <legend>Type :</legend>
+    
+          <div class="genre">
+            <input type="checkbox" id="scales" name="passion">
+            <label for="scales" class="alignements">Aventure </label>
+          </div>
+    
+          <div class="genre">
+            <input type="checkbox" id="horns" name="passion">
+            <label for="horns" class="alignements">Histoire </label>
+          </div>
+    
+          <div class="genre">
+            <input type="checkbox" id="horns" name="passion">
+            <label for="horns" class="alignements">Comédie</label>
+          </div>
+    
+          <div class="genre">
+            <input type="checkbox" id="horns" name="passion">
+            <label for="horns" class="alignements">Drame</label>
+          </div>
+    
+          <div class="genre">
+            <input type="checkbox" id="horns" name="passion">
+            <label for="horns" class="alignements">Policier</label>
+          </div>
+
+          <div class="genre">
+            <input type="checkbox" id="horns" name="passion">
+            <label for="horns" class="alignements">Science fiction</label>
+          </div>
+
+          <div class="genre">
+            <input type="checkbox" id="horns" name="passion">
+            <label for="horns" class="alignements">Fantastique</label>
+          </div>
+
+          <div class="genre">
+            <input type="checkbox" id="horns" name="passion">
+            <label for="horns" class="alignements">Horreur</label>
+          </div>
+
+          <div class="genre">
+            <input type="checkbox" id="horns" name="passion">
+            <label for="horns" class="alignements">Développement personnel</label>
+          </div>
+
+          <div class="genre">
+            <input type="checkbox" id="horns" name="passion">
+            <label for="horns" class="alignements">Philosophie</label>
+          </div>
+        </fieldset>
+      </div>
   
       <div class="conditions">
         <input type="checkbox" id="conditions" name="conditions" required>
@@ -75,3 +141,4 @@
     </main>
   </body>
 </html>
+
